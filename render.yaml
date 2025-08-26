@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: n8n
+    env: docker
+    plan: free
+    envVars:
+      - key: GENERIC_TIMEZONE
+        value: Europe/Paris
